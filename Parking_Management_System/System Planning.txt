@@ -1,0 +1,117 @@
+
+                              ----Parking Mannagement System----
+##### **Q1: Define Classes**
+1. **Car Class:**
+   - Members:
+     - `model` (string)
+     - `year` (int)
+     - `price` (float)
+   - Constructors:
+     - Default Constructor: Initializes `model` to `"Unknown"`, `year` to `0`, and `price` to `0.0`.
+     - Parameterized Constructor: Accepts values for all fields and initializes them using an initialization list.
+
+2. **Owner Class:**
+   - Members:
+     - `name` (string)
+     - `cars` (array of `Car` objects)
+     - `numCars` (int)
+   - Constructors:
+     - Default Constructor: Initializes `name` to `"Unknown"`, `cars` to `nullptr`, and `numCars` to `0`.
+     - Parameterized Constructor: Accepts `name` and initializes other fields appropriately.
+
+3. **Garage Class:**
+   - Members:
+     - `name` (string)
+     - `owners` (array of `Owner` objects)
+     - `numOwners` (int)
+   - Constructors:
+     - Default Constructor: Initializes `name` to `"Unknown"`, `owners` to `nullptr`, and `numOwners` to `0`.
+     - Parameterized Constructor: Accepts `name` and initializes other fields appropriately.
+
+---
+
+##### **Q2: Add a Car to an Owner**
+Implement the following function outside the classes:
+```cpp
+void addCar(Owner& owner, const Car& car);
+```
+- Task:
+  - Dynamically add the `Car` to the owner’s `cars` array after regrowing it.
+  - Increment the `numCars` field.
+
+---
+
+##### **Q3: Remove a Car from an Owner**
+Implement the following function outside the classes:
+```cpp
+void removeCar(Owner& owner, const string& model);
+```
+- Task:
+  - Remove the car with the specified `model` from the owner’s `cars` array.
+  - Update the `numCars` field.
+
+---
+
+##### **Q4: List All Cars of an Owner**
+Implement the following function:
+```cpp
+Car* listOwnerCars(const Owner& owner);
+```
+- Task:
+  - Return all the cars owned by the owner or `nullptr` if no cars are present.
+
+---
+
+##### **Q5: Find the Most Expensive Car**
+Implement the following function:
+```cpp
+Car findMostExpensiveCar(const Garage& garage);
+```
+- Task:
+  - Iterate through all owners and their cars in the garage.
+  - Return the most expensive car.
+
+---
+
+##### **Q6: Count Total Cars in the Garage**
+Implement the following function:
+```cpp
+int countTotalCars(const Garage& garage);
+```
+- Task:
+  - Count and return the total number of cars across all owners.
+
+---
+
+##### **Q7: Add an Owner to the Garage**
+Implement the following function:
+```cpp
+void addOwner(Garage& garage, const Owner& owner);
+```
+- Task:
+  - Add the given owner to the garage’s `owners` array after regrowing it.
+
+---
+
+##### **Q8: Search for an Owner in the Garage**
+Implement the following function:
+```cpp
+bool searchOwner(const Garage& garage, const string& name);
+```
+- Task:
+  - Search for the owner with the given `name` in the garage.
+  - Return `true` if found, otherwise `false`.
+
+---
+
+##### **Q9: Remove an Owner from the Garage**
+Implement the following function:
+```cpp
+void removeOwner(Garage& garage, const string& name);
+```
+- Task:
+  - Remove the owner with the given `name` from the garage’s `owners` array.
+  - Update the `numOwners` field.
+
+---
+
