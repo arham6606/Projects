@@ -1,0 +1,9 @@
+{
+    "Age": 24,
+    "GPA": 3.5,
+    "course": {
+        "courseCode": 2025,
+        "courseName": "EDC"
+    },
+    "name": "Rashid"
+}
