@@ -44,7 +44,7 @@ Programming labs: C++ assignments involving file handling, OOP, and data structu
 
 Clone this repository:
 
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/arham6606/Projects.git
 
 Navigate through the files to explore different projects and assignments.
 
