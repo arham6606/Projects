@@ -1,0 +1,34 @@
+{
+    "basicPeople": [
+        {
+            "age": 30,
+            "bondScore": 7,
+            "isMarried": false,
+            "name": "Adam",
+            "preference": "Kind"
+        },
+        {
+            "age": 28,
+            "bondScore": 5,
+            "isMarried": false,
+            "name": "Eve",
+            "preference": "Caring"
+        }
+    ],
+    "premiumPeople": [
+        {
+            "age": 29,
+            "bondScore": 10,
+            "isMarried": false,
+            "name": "Sara",
+            "preference": "Funny"
+        },
+        {
+            "age": 35,
+            "bondScore": 8,
+            "isMarried": false,
+            "name": "David",
+            "preference": "Supportive"
+        }
+    ]
+}
